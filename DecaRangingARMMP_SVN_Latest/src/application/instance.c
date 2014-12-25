@@ -21,7 +21,8 @@
 // -------------------------------------------------------------------------------------------------------------------
 
 //application data message byte offsets
-#define FCODE                               0               // Function code is 1st byte of messageData
+//#define FCODE                               0
+#define FCODE                               1// Function code is 1st byte of messageData
 #define PTXT                                1
 #define RRXT                                6
 #define FTXT                                11
